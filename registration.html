@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participant Registration - TechFest</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+               
+                <li><a href="#">Events Details</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="registration-form">
+        <div class="form-container">
+            <h1>Participant Registration</h1>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="college">College Name:</label>
+                    <input type="text" id="college" name="college" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="year">Year of Study:</label>
+                    <select id="year" name="year" required>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="event">Select Event:</label>
+                    <select id="event" name="event" required>
+                        <option value="coding">Coding Challenge</option>
+                        <option value="robotics">Robotics Competition</option>
+                        <option value="design">Design Hackathon</option>
+                        <option value="ai">AI & ML Challenge</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="student-id">Upload Student ID:</label>
+                    <input type="file" id="student-id" name="student-id" required>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Register</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TechFest. All rights reserved.</p>
+    </footer>
+</body>
+</html>
